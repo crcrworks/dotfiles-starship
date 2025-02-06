@@ -5,7 +5,6 @@ format = """
 $directory\
 [](fg:color_aqua)\
 $git_branch\
-$git_status\
 $fill\
 $c\
 $rust\
@@ -24,7 +23,7 @@ $line_break$character"""
 
 # add_newline = false
 palette = 'everforest'
- command_timeout = 1000
+# command_timeout = 10
 
 
 [palettes.everforest]
